@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
+          uri: https://github.com/sanmonros/micro-tutorial.git
           default-label: main
-          uri: https://github.com/sanmonros/micro-tutorial/microservice-curso
-          search-paths: config-data
+          search-paths: microservice-curso/config-data
   application:
     name: config-server
