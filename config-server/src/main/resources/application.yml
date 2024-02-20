@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sanmonros/micro-tutorial.git
+          default-label: main
+          search-paths: microservice-curso/config-data
+  application:
+    name: config-server
